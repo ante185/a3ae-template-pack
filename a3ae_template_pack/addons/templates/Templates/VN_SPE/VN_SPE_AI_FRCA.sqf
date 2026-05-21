@@ -46,7 +46,7 @@ private _vehiclesLightArmed = ["SPE_FR_G503_MB_M1919_PATROL", "SPE_FR_G503_MB_M2
 ["vehiclesTanks", ["SPE_FR_M4A3_76"]] call _fnc_saveToTemplate;
 private _vehiclesAA = ["a3a_vn_b_wheeled_m54_mg_02", "SPE_FR_M16_Halftrack"];
 
-["vehiclesTransportBoats", ["vn_o_boat_02_01", "vn_b_boat_10_01", "vn_b_boat_09_01"]] call _fnc_saveToTemplate;
+["vehiclesTransportBoats", ["vn_b_boat_09_01"]] call _fnc_saveToTemplate;
 ["vehiclesGunBoats", ["vn_b_boat_13_02", "vn_b_boat_06_02", "vn_b_boat_05_02", "vn_b_boat_12_02"]] call _fnc_saveToTemplate;
 ["vehiclesAmphibious", []] call _fnc_saveToTemplate;
 
@@ -95,6 +95,8 @@ private _uavsAttack = []; // scout helis are fine for this
 ["vehiclesPlanesCAS", _vehiclesPlanesCAS] call _fnc_saveToTemplate;
 ["vehiclesPlanesTransport", _vehiclesPlanesTransport] call _fnc_saveToTemplate;
 ["uavsAttack", _uavsAttack] call _fnc_saveToTemplate;
+
+#include "VN_Vehicle_Attributes.sqf"
 
 //Minefield definition
 //CFGVehicles variant of Mines are needed "ATMine", "APERSTripMine", "APERSMine"

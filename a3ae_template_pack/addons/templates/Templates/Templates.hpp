@@ -356,6 +356,19 @@ class Templates {
         equipFlags[] = {"lowTech","replaceCompass","replaceWatch"};
         forceDLC[] = {"vn"};
     };
+
+    class VNX_PLA : VNX_Base {
+        side = "Inv";
+        name = "VNX PLA";
+        file = "VN_SPE_AI_PLA";
+        description = "People's Liberation army, circa 1979";
+    }
+    class VNX_PAVN_Late : VNX_Base {
+        side = "Occ";
+        name = "VNX PAVN Late";
+        file = "VN_SPE_AI_PAVN_Late";
+        description = "PAVN circa 1979";
+    }
     //French Indochina war
     class VN_SPE_Base : VNX_Base{
         requiredAddons[] = {"vnx_build_number","WW2_SPEX_Assets_c_Characters_Americans_c", "sab_flyinglegends"};
