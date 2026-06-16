@@ -1,5 +1,5 @@
 
-if (isClass (configFile >> "CfgPatches" >> "MWB_M24Chaffee")) then {
+if (isClass (configFile >> "CfgPatches" >> "lk_pla")) then {
 	
 	["vehiclesLightUnarmed", ["lk_pla_btr40_01"]] call _fnc_saveToTemplate;
 	["vehiclesLightArmed",["lk_pla_btr40_dhskm","lk_pla_btr40_sgm","lk_pla_btr40_type56","lk_pla_z157_dshkm","lk_pla_z157_zpu"]] call _fnc_saveToTemplate;
