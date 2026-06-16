@@ -245,7 +245,8 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData;
-_militaryLoadoutData set ["uniforms", ["vn_o_uniform_nva_army_01_02", "vn_o_uniform_nva_army_12_02", "vn_o_uniform_nva_army_03_02", "vn_o_uniform_nva_army_04_02","vn_o_uniform_nva_army_09_02"]];_militaryLoadoutData set ["vests", ["vn_o_vest_01", "vn_o_vest_02"]];
+_militaryLoadoutData set ["uniforms", ["vn_o_uniform_nva_army_01_02", "vn_o_uniform_nva_army_12_02", "vn_o_uniform_nva_army_03_02", "vn_o_uniform_nva_army_04_02","vn_o_uniform_nva_army_09_02"]];
+_militaryLoadoutData set ["vests", ["vn_o_vest_01", "vn_o_vest_02"]];
 _militaryLoadoutData set ["medVests", ["vn_o_vest_06"]];
 _militaryLoadoutData set ["engVests", ["vn_o_vest_08"]];
 _militaryLoadoutData set ["mgVests", ["vn_o_vest_03"]];
